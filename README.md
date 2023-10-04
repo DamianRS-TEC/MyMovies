@@ -7,7 +7,7 @@
 **Vázquez Gutiérrez Johan Sebastian – 19211747**<br>
 **Damian – 1921**<br>
 ##### **Programacion Web**
-Lunes 22 de Octubre del 2023
+Domingo 22 de Octubre del 2023
 
 # Título del Proyecto
 **Proyecto 02 - MyMovies**
