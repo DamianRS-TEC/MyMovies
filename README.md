@@ -1,4 +1,17 @@
-# MyMovies
+**INSTITUTO TECNOLÓGICO DE TIJUANA**<br>
+**Subdirección académica**<br>
+**Departamento de sistemas y computación**<br>
+**Semestre Agosto - Diciembre 2023**<br>
+**Ingeniería en sistemas computacionales**
+##### Nombre del alumno:
+**Vázquez Gutiérrez Johan Sebastian – 19211747**
+**Damian – 1921**<br>
+##### **Programacion Web**
+Lunes 25 de septiembre del 2023
+
+# Título del Proyecto
+**Proyecto 02 - MyMovies**
+
 
 ### Proyecto 2 de la materia de Programación Web
 
