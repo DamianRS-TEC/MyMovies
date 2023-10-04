@@ -4,7 +4,7 @@
 **Semestre Agosto - Diciembre 2023**<br>
 **Ingeniería en sistemas computacionales**
 ##### Nombre del alumno:
-**Vázquez Gutiérrez Johan Sebastian – 19211747**
+**Vázquez Gutiérrez Johan Sebastian – 19211747**<br>
 **Damian – 1921**<br>
 ##### **Programacion Web**
 Lunes 25 de septiembre del 2023
