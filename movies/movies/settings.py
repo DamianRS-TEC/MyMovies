@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['d127web.ddns.net']
 # Application definition
 
 INSTALLED_APPS = [
+    'movies.apps.MoviesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
