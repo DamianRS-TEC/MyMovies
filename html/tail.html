@@ -1,64 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Página de Ejemplo</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/tailwind-style.css" rel="stylesheet">
-    </head>
-    <body class="font-sans max-w-4xl mx-auto">
-    <header class="h-12 w-full text-center mx-auto mt-5 border-b-2 border-sky-500">
-        <h1 class="font-medium text-3xl">My Movies</h1>
+<html>
+<head>
+    <title>MyMovies - Detalles de Película</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MyMovies</h1>
+        <nav>
+            <ul>
+                <li><a href="#peliculas">Películas</a></li>
+                <li><a href="#usuario">Usuario</a></li>
+                <li><a href="#recomendadas">Películas Recomendadas</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <article>
-        <div class="flex h-[32rem] bg-slate-200 my-4">
-            <img class="" src="img/imigame.jpg" alt="the imitation game poster">
-            <header>
-            <h1 class="movie-title"> The Imitation Game</h1>
+
+    <div class="main-content">
+        <h2>Detalles de la Película: The Thing</h2>
+        <div class="movie-details">
+            <img src="thing_poster.jpg" alt="The Thing">
             <div class="movie-info">
-                <p>  12/19/2014 -</p> 
-                <ul class="movie-genre"> 
-                    <li> History | </li>
-                    <li> Drama | </li>
-                    <li> Thriller | </li>
-                    <li> War </li>
-                </ul>
-                <p>- 1h 53m</p>  
-            </div>         
-            
-            <h1>Overview</h1>
-            <p>Based on the real life story of legendary cryptanalyst Alan
-            Turing, the film portrays the nail-biting race against time by
-            Turing and his brilliant team of code-breakers at Britain's
-            top-secret Government Code and Cypher School at Bletchley Park,
-            during the darkest days of World War II.</p>
-
-            <details>
-                <summary>Production Details</summary>
-                <p> Budget: $14,000,000.00 </p>
-                <p> Revenue: $233,555,708.00</p>
-            </details>
-            </header>
-        </div>
-
-        <h1>Top Billed Cast</h1>
-        <div class="cast"> 
-            <div class="cast-item"> 
-                <img src="img/cumberbatch.jpg" alt="Benedict Cumberbatch photo">
-                <h1> Benedict Cumberbatch</h1>
-            </div>
-            <div class="cast-item"> 
-                <img src="img/knightley.jpg" alt="Keira Knightley photo">
-                <h1> Keira Knightley</h1>
+                <h3>Título: The Thing</h3>
+                <p>Año: 1982</p>
+                <p>País: Estados Unidos</p>
+                <p>Estreno: 10 de junio de 1982</p>
+                <p>Descripción: Un grupo de investigadores en la Antártida se enfrenta a una amenaza alienígena que puede imitar a cualquier ser humano.</p>
+                <p>Estudio: Universal Pictures</p>
+                <p>Duración: 109 minutos</p>
+                <p>Géneros: Ciencia Ficción, Terror</p>
             </div>
         </div>
-    </article>
-
-    <footer>
-        <p> Proyecto de ejemplo de la materia Programación Web</p>
-        <p><a href="github.com\miusuario\elrepo"> GitHub Repository</a></p>
-    </footer>
-
-    </body>
+    </div>
+</body>
 </html>
