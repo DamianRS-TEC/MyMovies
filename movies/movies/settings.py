@@ -75,7 +75,6 @@ TEMPLATES = [
         },
     },
 ]
-]
 
 WSGI_APPLICATION = 'movies.wsgi.application'
 
