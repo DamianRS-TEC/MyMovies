@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'movies/html/Index.html')
+    return render(request, 'Index.html')
