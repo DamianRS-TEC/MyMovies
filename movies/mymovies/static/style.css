@@ -7,17 +7,16 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
-/* Estilo para la lista no ordenada dentro del encabezado */
-nav ul {
-  list-style: none; /* Elimina los puntos de lista */
-  padding: 0; /* Elimina el espaciado interno predeterminado */
-  display: flex; /* Muestra los elementos en línea (horizontalmente) */
-  justify-content: center; /* Centra los elementos horizontalmente */
+/* Estilo para la lista no ordenada ul */
+header ul {
+  list-style: none; /* Quita los marcadores de lista */
+  padding: 0; /* Elimina el espaciado interno de la lista */
+  display: flex; /* Muestra los elementos en línea horizontal */
 }
 
-/* Estilo para los elementos de la lista */
-nav li {
-  margin: 0 20px; /* Espaciado horizontal entre elementos */
+/* Estilo para los elementos de la lista li */
+header li {
+  margin-right: 20px; /* Espaciado entre elementos */
 }
 
 /* Estilo para el contenido principal */
