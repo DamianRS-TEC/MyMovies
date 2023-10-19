@@ -7,6 +7,19 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
+/* Estilo para la lista no ordenada dentro del encabezado */
+nav ul {
+  list-style: none; /* Elimina los puntos de lista */
+  padding: 0; /* Elimina el espaciado interno predeterminado */
+  display: flex; /* Muestra los elementos en línea (horizontalmente) */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los elementos de la lista */
+nav li {
+  margin: 0 20px; /* Espaciado horizontal entre elementos */
+}
+
 /* Estilo para el contenido principal */
 .main-content {
   padding: 20px; /* Espaciado para el contenido principal */
