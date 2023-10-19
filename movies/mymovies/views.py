@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'Index.html')
+
+def tail(request):
+    return render(request, 'tail.html')
