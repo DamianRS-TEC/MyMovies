@@ -15,26 +15,16 @@ header h1 {
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+    list-style: none; /* Quita los marcadores de lista predeterminados (puntos) */
+    display: flex; /* Convierte la lista en un contenedor flex */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+    padding: 0; /* Quita el espacio de relleno predeterminado de la lista */
 }
 
 nav ul li {
-    margin: 0 20px;
-}
-
-horizontal-list {
-  list-style: none; /* Quita los marcadores de lista predeterminados (puntos) */
-  display: flex; /* Convierte la lista en un contenedor flex */
-  justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
-  padding: 0; /* Quita el espacio de relleno predeterminado de la lista */
-}
-
-horizontal-list li {
-  margin: 0; /* Quita el margen entre elementos de la lista */
-  padding: 10px; /* Añade relleno para espaciar los elementos */
-  border: 1px solid #000; /* Añade un borde a cada elemento (opcional) */
+    margin: 0; /* Quita el margen entre elementos de la lista */
+    padding: 10px; /* Añade relleno para espaciar los elementos */
+    border: 1px solid #000; /* Añade un borde a cada elemento (opcional) */
 }
 
 /* Estilo para la galería de películas y recomendaciones */
