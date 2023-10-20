@@ -1,33 +1,58 @@
 /* Estilo para el encabezado */
 header {
-  background-color: #333; /* Fondo oscuro */
-  color: #fff; /* Texto blanco */
-  padding: 10px; /* Espaciado interno */
-  text-align: center; /* Texto centrado */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    background-color: #F0F0F0;
+    border: 1px solid #00FFFF;
+    padding: 10px;
+    text-align: center;
 }
 
-
-/* Estilo para el contenido principal */
-.main-content {
-  padding: 20px; /* Espaciado para el contenido principal */
+header h1 {
+    font-size: 36px;
+    margin: 0;
 }
 
-/* Estilo para el pie de página (opcional) */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Estilo para la galería de películas y recomendaciones */
+.movie-gallery,
+.recommended-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie,
+.recommended {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.movie img,
+.recommended img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-info,
+.recommended-info {
+    text-align: center;
+}
+
+/* Estilo para el pie de página */
 footer {
-  background-color: #333; /* Fondo oscuro */
-  color: #fff; /* Texto blanco */
-  padding: 10px; /* Espaciado interno */
-  text-align: center; /* Texto centrado */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
-}
-
-/* Estilo para los enlaces */
-a {
-  color: #007bff; /* Enlaces azules */
-  text-decoration: none; /* Sin subrayado */
-}
-
-a:hover {
-  text-decoration: underline; /* Subrayado en el hover */
+    background-color: #F0F0F0;
+    text-align: center;
+    padding: 10px;
 }
