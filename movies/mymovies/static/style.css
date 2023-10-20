@@ -29,6 +29,7 @@ header h1 {
     align-items: right;
     justify-content: center;
 }
+
 nav ul {
     list-style: none; /* Quita los marcadores de lista predeterminados (puntos) */
     display: flex; /* Convierte la lista en un contenedor flex */
