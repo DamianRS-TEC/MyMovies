@@ -4,6 +4,9 @@ header {
     border: 1px solid #00FFFF;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -14,10 +17,10 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 20px;
 }
 
