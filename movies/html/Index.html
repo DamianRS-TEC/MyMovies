@@ -6,28 +6,48 @@
     <title>MyMovies - Encuentra tus películas favoritas</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
+</head>
 <body>
     <header>
         <h1>MyMovies</h1>
         <nav>
-            <a class="parent_left" href="">Página principal</a></li>
-            <a class="parent_center" href="peliculas.html">Galería de películas</a>
-            <a class="parent_right" href="usuario.html">Usuario</a>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="peliculas.html">Galería de películas</a></li>
+                <li><a href="usuario.html">Usuario</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div class="main-content">
+    <div class="content-container">
         <h2>Cartelera de Películas</h2>
-        <div class="movie-gallery">
+        <div class="recommended-gallery">
             <!-- Película 1 -->
-            <div class="movie">
-                <img src="pelicula1.jpg" alt="Película 1">
-                <div class="movie-info">
-                    <h3>Película 1</h3>
-                    <p>Director: Director 1</p>
-                    <p>Géneros: Acción, Aventura</p>
+            <div class="recommended">
+                <img src="static/images/1.jpg" alt="Recomendación 1">
+                <div class="recommended-info">
+                    <h3>The Thing</h3>
+                    <p>Director: John Carpenter</p>
+                    <p>Géneros: Ciencia ficción, Terror, Suspenso</p>
                 </div>
             </div>
+            <div class="recommended">
+                <img src="static/images/2.jpg" alt="Recomendación 2">
+                <div class="recommended-info">
+                    <h3>Titanic</h3>
+                    <p>Director: James Cameron</p>
+                    <p>Géneros: Drama, Romántico</p>
+                </div>
+            </div>
+            <div class="recommended">
+                <img src="static/images/3.jpg" alt="Recomendación 3">
+                <div class="recommended-info">
+                    <h3>Forrest Gump</h3>
+                    <p>Director: Robert Zemeckis</p>
+                    <p>Géneros: Comedia, Drama</p>
+                </div>
+            </div>
+            
             <!-- Repite para más películas -->
         </div>
 
@@ -38,8 +58,8 @@
                 <img src="static/images/1.jpg" alt="Recomendación 1">
                 <div class="recommended-info">
                     <h3>The Thing</h3>
-                    <p>Director: Director de The Thing</p>
-                    <p>Géneros: Ciencia ficción, Terror</p>
+                    <p>Director: John Carpenter</p>
+                    <p>Géneros: Ciencia ficción, Terror, Suspenso</p>
                 </div>
             </div>
             <!-- Repite para más recomendaciones -->
@@ -47,7 +67,7 @@
     </div>
 
     <footer>
-        <p>© MyMovies</p>
+        <p>© 2023 MyMovies, D97, D127</p>
         <p>Hecho por Johan Sebastian Vazquez Gutierrez y Damian Robledo Sanchez</p>
     </footer>
 </body>
