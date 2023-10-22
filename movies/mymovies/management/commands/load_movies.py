@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
-from movies.models import Genre, Movie, Person, Job, MovieCredit
+from mymovies.models import Genre, Movie, Person, Job, MovieCredit
 
 from django.utils.timezone import timezone
 from datetime import datetime
