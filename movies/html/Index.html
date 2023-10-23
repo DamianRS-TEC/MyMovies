@@ -11,9 +11,9 @@
         <h1>MyMovies</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Página principal</a></li>
-                <li><a href="peliculas.html">Galería de películas</a></li>
-                <li><a href="usuario.html">Usuario</a></li>
+                <li><a href="index">Página principal</a></li>
+                <li><a href="peliculas">Galería de películas</a></li>
+                <li><a href="usuario">Usuario</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +26,7 @@
             <div class="recommended movie-card">
                 <img src={{movies.1.poster_path}} alt="Recomendación 1">
                 <div class="recommended-info">
-                    <h3>{{movies.1.title}}</h3>
+                    <h3><a href="tail">{{movies.1.title}}</a></h3> 
                     <p>Director: {{movies.1.credits.all.5}}</p>
                     <p>Géneros: | 
                         {% for gen in movies.1.genres.all %}
