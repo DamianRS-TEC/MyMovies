@@ -23,4 +23,9 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('index', views.home, name='home'),
     path('tail', views.tail, name='tail'),
+    path('tail2', views.tail2, name='tail2'),
+    path('tail3', views.tail3, name='tail3'),
+    path('tail4', views.tail4, name='tail4'),
+    path('tail5', views.tail5, name='tail5'),
+    path('tail6', views.tail6, name='tail6'),
 ]

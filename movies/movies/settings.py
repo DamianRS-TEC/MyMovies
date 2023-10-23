@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
+
 """
 
 from pathlib import Path
@@ -32,7 +33,7 @@ SECRET_KEY = 'django-insecure-i(n(0z0xy1j%q$8_^b(+05)_bm8iqwr%nyh)jzls3t*xqqch7_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
 
 
 # Application definition
@@ -83,15 +84,8 @@ WSGI_APPLICATION = 'movies.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django_bootstrap',
-        'USER': 'ubuntu',
-        'PASSWORD': 'thisissomeseucrepassword',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+    "default": env.db(),
     }
-}
 
 
 # Password validation

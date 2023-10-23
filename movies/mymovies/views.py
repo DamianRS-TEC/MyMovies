@@ -22,3 +22,13 @@ def home(request):
 
 def tail(request):
     return render(request, 'tail.html')
+def tail3(request):
+    return render(request, 'tail3.html')
+def tail4(request):
+    return render(request, 'tail4.html')
+def tail5(request):
+    return render(request, 'tail5.html')
+def tail6(request):
+    return render(request, 'tail6.html')
+def tail2(request):
+    return render(request, 'tail2.html')
