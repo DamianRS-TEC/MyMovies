@@ -24,9 +24,10 @@
             <button id="prev-button"><</button>
                 <!-- Película 1 -->
             <div class="recommended movie-card">
+                <a href="tail">
                 <img src={{movies.1.poster_path}} alt="Recomendación 1">
                 <div class="recommended-info">
-                    <h3><a href="tail">{{movies.1.title}}</a></h3> 
+                    <h3>{{movies.1.title}}</h3> 
                     <p>Director: {{movies.1.credits.all.5}}</p>
                     <p>Géneros: | 
                         {% for gen in movies.1.genres.all %}
@@ -34,9 +35,10 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
             <div class="recommended movie-card">
+                <a href="tail2">
                 <img src={{movies.2.poster_path}} alt="Recomendación 2">
                 <div class="recommended-info">
                     <h3>{{movies.2.title}}</h3>
@@ -47,9 +49,10 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
             <div class="recommended movie-card">
+                <a href="tail3">
                 <img src={{movies.3.poster_path}} alt="Recomendación 3">
                 <div class="recommended-info">
                     <h3>{{movies.3.title}}</h3>
@@ -60,11 +63,12 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
 
             
             <div class="recommended movie-card">
+                <a href="tail4">
                 <img src={{movies.4.poster_path}} alt="Recomendación 4">
                 <div class="recommended-info">
                     <h3>{{movies.4.title}}</h3>
@@ -75,9 +79,10 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
             <div class="recommended movie-card">
+                <a href="tail5">
                 <img src={{movies.5.poster_path}} alt="Recomendación 5">
                 <div class="recommended-info">
                     <h3>{{movies.5.title}}</h3>
@@ -88,9 +93,10 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
             <div class="recommended movie-card">
+                <a href="tail6">
                 <img src={{movies.6.poster_path}} alt="Recomendación 6">
                 <div class="recommended-info">
                     <h3>{{movies.6.title}}</h3>
@@ -101,7 +107,7 @@
                         |
                         {% endfor %}
                     </p>
-                </div>
+                </div></a>
             </div>
             <button id="next-button">></button>
         </div>
@@ -111,6 +117,7 @@
             <button id="prev-button-2"><</button>
                 <!-- Película 1 -->
                 <div class="recommended movie-card">
+                    <a href="tail">
                     <img src={{movies.1.poster_path}} alt="Recomendación 1">
                     <div class="recommended-info">
                         <h3>{{movies.1.title}}</h3>
@@ -121,9 +128,10 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="recommended movie-card">
+                    <a href="tail2">
                     <img src={{movies.2.poster_path}} alt="Recomendación 2">
                     <div class="recommended-info">
                         <h3>{{movies.2.title}}</h3>
@@ -134,9 +142,10 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="recommended movie-card">
+                    <a href="tail3">
                     <img src={{movies.3.poster_path}} alt="Recomendación 3">
                     <div class="recommended-info">
                         <h3>{{movies.3.title}}</h3>
@@ -147,11 +156,12 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
     
                 
                 <div class="recommended movie-card">
+                    <a href="tail4">
                     <img src={{movies.4.poster_path}} alt="Recomendación 4">
                     <div class="recommended-info">
                         <h3>{{movies.4.title}}</h3>
@@ -162,9 +172,10 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="recommended movie-card">
+                    <a href="tail5">
                     <img src={{movies.5.poster_path}} alt="Recomendación 5">
                     <div class="recommended-info">
                         <h3>{{movies.5.title}}</h3>
@@ -175,9 +186,10 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
                 <div class="recommended movie-card">
+                    <a href="tail6">
                     <img src={{movies.6.poster_path}} alt="Recomendación 6">
                     <div class="recommended-info">
                         <h3>{{movies.6.title}}</h3>
@@ -188,7 +200,7 @@
                             |
                             {% endfor %}
                         </p>
-                    </div>
+                    </div></a>
                 </div>
             <button id="next-button-2">></button>
         </div>
